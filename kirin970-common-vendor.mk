@@ -3004,6 +3004,16 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-sp-26/libunwind.so:system/lib64/vndk-sp-26/libunwind.so \
     vendor/huawei/kirin970-common/proprietary/lib64/vndk-sp-26/libutils.so:system/lib64/vndk-sp-26/libutils.so
 
+# Copy LatinIME for gesture typing
+PRODUCT_COPY_FILES += \
+    vendor/huawei/kirin970-common/proprietary/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so
+
+# Turbo
+PRODUCT_COPY_FILES += \
+    vendor/huawei/kirin970-common/proprietary/etc/permissions/privapp-permissions-turbo.xml:system/etc/permissions/privapp-permissions-turbo.xml \
+    vendor/huawei/kirin970-common/proprietary/etc/sysconfig/turbo.xml:system/etc/sysconfig/turbo.xml
+
 PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleHI6403 \
-    HotwordEnrollmentXGoogleHI6403
+    HotwordEnrollmentXGoogleHI6403 \
+    Turbo
