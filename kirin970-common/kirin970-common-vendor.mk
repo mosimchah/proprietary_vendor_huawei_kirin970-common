@@ -1932,6 +1932,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin970-common/proprietary/etc/charger/public/800_serial/scp_charging_22.png:system/etc/charger/public/800_serial/scp_charging_22.png \
     vendor/huawei/kirin970-common/proprietary/etc/charger/public/800_serial/scp_charging_23.png:system/etc/charger/public/800_serial/scp_charging_23.png \
     vendor/huawei/kirin970-common/proprietary/etc/init/displayengineserver.rc:system/etc/init/displayengineserver.rc \
+    vendor/huawei/kirin970-common/proprietary/etc/permissions/privapp-permissions-turbo.xml:system/etc/permissions/privapp-permissions-turbo.xml \
+    vendor/huawei/kirin970-common/proprietary/etc/sysconfig/turbo.xml:system/etc/sysconfig/turbo.xml \
     vendor/huawei/kirin970-common/proprietary/lib/libhwsmartdisplay_jni.so:system/lib/libhwsmartdisplay_jni.so \
     vendor/huawei/kirin970-common/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
     vendor/huawei/kirin970-common/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
@@ -1948,4 +1950,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleHI6403 \
     HotwordEnrollmentXGoogleHI6403 \
+    Turbo \
     chargeonlymode
